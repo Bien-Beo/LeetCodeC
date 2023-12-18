@@ -6,7 +6,7 @@ typedef struct Student {
 	int ID;
 	float GPA;
 }ST;
-
+// Nhap mang
 void importStudentInformation(ST* st) {
 	printf("\nEnter ID: "); scanf("%d", &st->ID); getchar();
 	printf("\nEnter Name: "); fgets(st->name, sizeof(st->name), stdin); 
